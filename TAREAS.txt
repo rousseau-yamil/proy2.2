@@ -1,0 +1,46 @@
+Eliminar productos 
+DELETE 127.0.0.1:8080/api/products/:id 
+
+Obtener productos
+GET 127.0.0.1:8080/api/products/
+GET 127.0.0.1:8080/api/products/:id
+
+PUT ni lo probe
+
+Crear producto
+POST 127.0.0.1:8080/api/products/
+Body 
+ {
+    "title": "Mouse Gamer RGB",
+    "description": "Mouse óptico con iluminación RGB y 6 botones programables.",
+    "code": "PRD001",
+    "price": 29.99,
+    "stock": 50,
+    "category": "accesorios",
+    "thumbnails": ["mouse1.jpg"]
+  }
+
+
+REGISTER
+POST 127.0.0.1:8080/api/sessions/register
+{"first_name":"yl","last_name":"rau","email":"y@client.com","password":"lalala","role":"admin"}
+
+
+CREAR producto
+POST 127.0.0.1:8080/api/products/
+{
+    "title": "Cable HDMI 2.1 COPIA",
+    "description": "Cable HDMI compatible con 4K y 8K a 60Hz.",
+    "code": "PRD0111",
+    "price": 14.99,
+    "stock": 100,
+    "category": "cables",
+    "thumbnails": [
+        "hdmi1.jpg"
+    ]
+}
+ELIMINAR  productoS
+DELETE 127.0.0.1:8080/api/products/686e84a3aa963d00dd4bc38f
+
+MODIFICAR
+PUT 127.0.0.1:8080/api/products/686e84a3aa963d00dd4bc394

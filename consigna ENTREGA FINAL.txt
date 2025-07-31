@@ -1,0 +1,26 @@
++++++++++++++++++++
+Mejorar FRONT de realtimeproducts, faltan paginas siguiente, etc y las tarjetas estan sin tamaño fijo
+Arreglar realtimeproducts no agrega productos
+
+Ruta	            Método		Estrategia recomendada	                                     Notas importantes
+/register	        POST	    sin Passport (o con local para validación)	                 Validar campos, crear usuario y hashear password.
+/login (o /sign-in)	POST	    passport.authenticate('local')	                             Validar credenciales, generar JWT, devolver token.
+/productos	        GET	    	Público o con passport.authenticate('jwt') (opcional)	     Si público, no necesita auth. Si privado, usar JWT.
+
+
++++++++++++ PARA HACER
+ENVIROMENTS
+Hacer un enviroment .env con parametros  -port -mode
+- local : 127.0.0.1:8080
+- production : mongo...blabla
+- development : mongo...blabla (deliberadamnete son los mismos)
+
+++++++++++++++++++++
+ENTREGA Final
+Estrategias 
+MVC
+Patron de diseño : FACTORY
+Metodo de restaurar password con Mailing
+
+
+

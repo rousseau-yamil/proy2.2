@@ -1,0 +1,24 @@
+1- Modelo de usuario (hecho)
+first_name
+last_name
+email
+age
+password
+cart
+role
+2- Encriptacion con bcrypt (hecho)
+3- Estrategia de passport 
+4 sistema de login con JWT
+5 Ruta de validacion /api/sessions/current validando el usuario logueado y respuesta con datos asociados al JWT
+
+
++++++++++++++++++++
+Mejorar FRONT de realtimeproducts, faltan paginas siguiente, etc y las tarjetas estan sin tamaño fijo
+Arreglar realtimeproducts no agrega productos
+
+Ruta	            Método		Estrategia recomendada	                                     Notas importantes
+/register	        POST	    sin Passport (o con local para validación)	                 Validar campos, crear usuario y hashear password.
+/login (o /sign-in)	POST	    passport.authenticate('local')	                             Validar credenciales, generar JWT, devolver token.
+/productos	        GET	    	Público o con passport.authenticate('jwt') (opcional)	     Si público, no necesita auth. Si privado, usar JWT.
+
+

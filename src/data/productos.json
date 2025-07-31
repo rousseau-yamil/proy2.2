@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Mouse Gamer RGB",
+    "description": "Mouse óptico con iluminación RGB y 6 botones programables.",
+    "code": "PRD001",
+    "price": 29.99,
+    "stock": 50,
+    "category": "accesorios",
+    "thumbnails": ["mouse1.jpg"]
+  },
+  {
+    "title": "Teclado Mecánico",
+    "description": "Teclado mecánico con switches azules y retroiluminación.",
+    "code": "PRD002",
+    "price": 69.99,
+    "stock": 35,
+    "category": "accesorios",
+    "thumbnails": ["teclado1.jpg"]
+  },
+  {
+    "title": "Monitor 24\" Full HD",
+    "description": "Monitor LED de 24 pulgadas con resolución 1080p.",
+    "code": "PRD003",
+    "price": 149.99,
+    "stock": 20,
+    "category": "monitores",
+    "thumbnails": ["monitor1.jpg"]
+  },
+  {
+    "title": "Silla Gamer Reclinable",
+    "description": "Silla ergonómica para juegos, reclinable hasta 180°.",
+    "code": "PRD004",
+    "price": 199.99,
+    "stock": 15,
+    "category": "muebles",
+    "thumbnails": ["silla1.jpg"]
+  },
+  {
+    "title": "Laptop i7 16GB RAM",
+    "description": "Laptop potente para tareas pesadas y desarrollo.",
+    "code": "PRD005",
+    "price": 1099.99,
+    "stock": 10,
+    "category": "computadoras",
+    "thumbnails": ["laptop1.jpg"]
+  },
+  {
+    "title": "Disco SSD 1TB",
+    "description": "Unidad de estado sólido de 1TB para alto rendimiento.",
+    "code": "PRD006",
+    "price": 129.99,
+    "stock": 60,
+    "category": "almacenamiento",
+    "thumbnails": ["ssd1.jpg"]
+  },
+  {
+    "title": "Router WiFi 6",
+    "description": "Router con tecnología WiFi 6 para mejor cobertura y velocidad.",
+    "code": "PRD007",
+    "price": 89.99,
+    "stock": 25,
+    "category": "redes",
+    "thumbnails": ["router1.jpg"]
+  },
+  {
+    "title": "Cámara Web 1080p",
+    "description": "Cámara web para videollamadas de alta definición.",
+    "code": "PRD008",
+    "price": 49.99,
+    "stock": 40,
+    "category": "accesorios",
+    "thumbnails": ["camara1.jpg"]
+  },
+  {
+    "title": "Parlantes Bluetooth",
+    "description": "Parlantes portátiles con conexión Bluetooth y sonido estéreo.",
+    "code": "PRD009",
+    "price": 39.99,
+    "stock": 45,
+    "category": "audio",
+    "thumbnails": ["parlantes1.jpg"]
+  },
+  {
+    "title": "Tablet 10\" 64GB",
+    "description": "Tablet de 10 pulgadas con 64GB de almacenamiento interno.",
+    "code": "PRD010",
+    "price": 229.99,
+    "stock": 18,
+    "category": "tablets",
+    "thumbnails": ["tablet1.jpg"]
+  },
+  {
+    "title": "Cable HDMI 2.1",
+    "description": "Cable HDMI compatible con 4K y 8K a 60Hz.",
+    "code": "PRD011",
+    "price": 14.99,
+    "stock": 100,
+    "category": "cables",
+    "thumbnails": ["hdmi1.jpg"]
+  },
+  {
+    "title": "Micro SD 128GB",
+    "description": "Tarjeta de memoria MicroSD Clase 10.",
+    "code": "PRD012",
+    "price": 19.99,
+    "stock": 75,
+    "category": "almacenamiento",
+    "thumbnails": ["sd1.jpg"]
+  },
+  {
+    "title": "Cargador Rápido USB-C",
+    "description": "Cargador compatible con carga rápida de hasta 30W.",
+    "code": "PRD013",
+    "price": 24.99,
+    "stock": 55,
+    "category": "accesorios",
+    "thumbnails": ["cargador1.jpg"]
+  },
+  {
+    "title": "Auriculares Inalámbricos",
+    "description": "Auriculares Bluetooth con cancelación de ruido.",
+    "code": "PRD014",
+    "price": 59.99,
+    "stock": 38,
+    "category": "audio",
+    "thumbnails": ["auriculares1.jpg"]
+  },
+  {
+    "title": "Smartwatch Deportivo",
+    "description": "Reloj inteligente con monitoreo de actividad y frecuencia cardíaca.",
+    "code": "PRD015",
+    "price": 79.99,
+    "stock": 22,
+    "category": "wearables",
+    "thumbnails": ["smartwatch1.jpg"]
+  },
+  {
+    "title": "Fuente 600W Certificada",
+    "description": "Fuente de poder 600W con certificación 80 Plus.",
+    "code": "PRD016",
+    "price": 69.99,
+    "stock": 30,
+    "category": "componentes",
+    "thumbnails": ["fuente1.jpg"]
+  },
+  {
+    "title": "Tarjeta Gráfica GTX 1660",
+    "description": "GPU de alto rendimiento para juegos en 1080p.",
+    "code": "PRD017",
+    "price": 299.99,
+    "stock": 12,
+    "category": "componentes",
+    "thumbnails": ["gpu1.jpg"]
+  },
+  {
+    "title": "CPU AMD Ryzen 5",
+    "description": "Procesador de 6 núcleos para gaming y productividad.",
+    "code": "PRD018",
+    "price": 219.99,
+    "stock": 17,
+    "category": "componentes",
+    "thumbnails": ["cpu1.jpg"]
+  },
+  {
+    "title": "Cooler para CPU",
+    "description": "Ventilador y disipador de calor compatible con AMD e Intel.",
+    "code": "PRD019",
+    "price": 34.99,
+    "stock": 42,
+    "category": "componentes",
+    "thumbnails": ["cooler1.jpg"]
+  },
+  {
+    "title": "Memoria RAM 16GB DDR4",
+    "description": "Módulo de memoria DDR4 3200MHz.",
+    "code": "PRD020",
+    "price": 74.99,
+    "stock": 27,
+    "category": "componentes",
+    "thumbnails": ["ram1.jpg"]
+  }
+]
